@@ -20,7 +20,11 @@ function App() {
   return (
     <div className='App'>
       <Head className='head' title={data.title} date={data.date} />
-      <Body className='body' />
+      <Body
+        className='body'
+        imgSrc={data.hdurl}
+        explanation={data.explanation}
+      />
       <Foot className='footer' />
     </div>
   );

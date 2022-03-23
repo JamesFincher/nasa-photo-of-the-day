@@ -3,7 +3,10 @@ import React from 'react';
 export default function Foot() {
   return (
     <>
-      <h1>NASA PHOTO OF THE DAY</h1>
+      <footer className='footer'>
+        <a href='https://github.com/JamesFincher'>Check out our other links!</a>{' '}
+        || <a href='https://github.com/'>Donate</a>
+      </footer>
     </>
   );
 }
