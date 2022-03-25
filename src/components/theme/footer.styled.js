@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledFooter = styled.div`
   background-color: ${(props) => props.theme.nasaDarkBlue};
-  color: ${(props) => props.theme.secondaryColor};
+  color: white;
   padding-bottom: 1rem;
 
   img {
@@ -10,9 +10,10 @@ export const StyledFooter = styled.div`
     height: auto;
   }
   a {
-    color: ${(props) => props.theme.secondaryColor};
-    font-size: 1.5rem;
+    color: white;
+    font-size: 0.9rem;
     font-weight: bold;
+    text-decoration: none;
   }
   p {
     display: inline-block;

@@ -1,19 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledHead = styled.div`
-  background-color: ${(props) => props.theme.nasaLightBlue};
+  background-color: ${(props) => props.theme.nasaDarkBlue};
   color: ${(props) => props.theme.nasaWhite};
-
-  img {
-    width: 80%;
-    height: auto;
-  }
-
-  p {
-    display: inline-block;
-    max-width: 80%;
-    font-size: 1.5rem;
-    padding: 20px;
+  h2 {
     margin: 0;
   }
 `;

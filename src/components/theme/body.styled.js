@@ -5,7 +5,7 @@ export const StyledBody = styled.div`
   color: ${(props) => props.theme.nasaWhite};
 
   img {
-    width: 80%;
+    width: 50%;
     height: auto;
   }
 
