@@ -1,4 +1,6 @@
 // theme object here
+import Styled from 'styled-components';
+
 export default {
   primaryColor: '#428BCA',
   nasaGrey: '#888888',
