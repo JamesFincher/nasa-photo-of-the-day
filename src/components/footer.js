@@ -1,12 +1,22 @@
 import React from 'react';
-
+import { StyledFooter } from './theme/footer.styled';
 export default function Foot() {
   return (
-    <>
-      <footer className='footer'>
-        <a href='https://github.com/JamesFincher'>Check out our other links!</a>{' '}
-        || <a href='https://github.com/'>Donate</a>
-      </footer>
-    </>
+    <StyledFooter>
+      <>
+        <footer className='footer'>
+          <a href='https://github.com/JamesFincher'> Learn about APOD</a>
+          <br />
+
+          <a href='https://spacecenter.org/support/make-a-gift/ways-to-give/'>
+            Donate to Space Center
+          </a>
+          <br />
+          <a href='https://www.nasa.gov/education/maianse/resources'>
+            Learn even more!
+          </a>
+        </footer>
+      </>
+    </StyledFooter>
   );
 }

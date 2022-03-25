@@ -1,13 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
+import { StyledBody } from './theme/body.styled';
 export default function Body(props) {
   const { imgSrc, explanation } = props;
-
   return (
-    <>
-      <img src={imgSrc} alt={explanation} className='image' />
-      <p className='explanation'>{explanation}</p>
-    </>
+    <StyledBody>
+      <>
+        <img
+          src={imgSrc}
+          alt={explanation}
+          className='image'
+          onclick={imgSrc}
+        />
+        <p className='explanation'>{explanation}</p>
+      </>
+    </StyledBody>
   );
 }

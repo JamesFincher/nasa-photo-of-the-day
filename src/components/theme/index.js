@@ -1,4 +1,3 @@
-// theme object here
 import Styled from 'styled-components';
 
 export default {
