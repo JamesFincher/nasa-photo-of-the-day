@@ -5,7 +5,9 @@ export default function Foot() {
     <StyledFooter>
       <>
         <footer className='footer'>
-          <a href='https://github.com/JamesFincher'> Learn about APOD</a>
+          <a href='https://apod.nasa.gov/apod/lib/about_apod.html'>
+            Learn about APOD
+          </a>
           <br />
 
           <a href='https://spacecenter.org/support/make-a-gift/ways-to-give/'>
