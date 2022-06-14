@@ -14,7 +14,7 @@ export const StyledBody = styled.div`
     height: auto;
 
     @media (max-width: 450px) {
-      width: 85%;
+      width: 100%;
     }
   }
 
@@ -23,7 +23,7 @@ export const StyledBody = styled.div`
     font-size: 1rem;
     padding: 20px;
     margin: 20px;
-    text-align: center;
+    text-align: right;
 
     @media (max-width: 450px) {
       max-width: 80%;
