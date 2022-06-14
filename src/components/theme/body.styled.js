@@ -23,7 +23,6 @@ export const StyledBody = styled.div`
     font-size: 1rem;
     padding: 20px;
     margin: 20px;
-    text-align: right;
 
     @media (max-width: 450px) {
       max-width: 80%;
