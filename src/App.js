@@ -18,7 +18,6 @@ function App() {
       })
       .catch((err) => console.log(err));
   }, []);
-  console.table(data);
   return (
     <div className='App'>
       <Head className='head' title={data.title} date={data.date} />
