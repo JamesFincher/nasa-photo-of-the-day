@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const StyledFooter = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: ${(props) => props.theme.nasaDarkBlue};

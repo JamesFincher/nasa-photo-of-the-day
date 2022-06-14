@@ -5,12 +5,10 @@ export default function Head(props) {
   return (
     <StyledHead>
       <>
-        <h1 className='date'>
-          NASA PHOTO OF THE DAY FOR
-          <br /> {date}
-        </h1>
-
-        <h2 className='title'>{title}</h2>
+        <h1 className='date'>NASA PHOTO OF THE DAY</h1>
+        <h2 className='title'>
+          {date} - {title}
+        </h2>
         <br />
       </>
     </StyledHead>

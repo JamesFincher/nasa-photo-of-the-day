@@ -8,7 +8,9 @@ export default function Body(props) {
           src={imgSrc}
           alt={explanation}
           className='image'
-          onclick={imgSrc}
+          onClick={() => {
+            window.open(imgSrc);
+          }}
         />
         <p className='explanation'>{explanation}</p>
       </>
