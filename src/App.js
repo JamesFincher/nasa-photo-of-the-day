@@ -4,13 +4,15 @@ import './App.css';
 import Head from './components/head';
 import Body from './components/body';
 import Foot from './components/footer';
-import { BASE_URL, API_KEY } from './constants.js';
 
 function App() {
   const [data, setData] = useState([]);
   useEffect(() => {
+    const url = process.env.REACT_APP_API_URL;
+    const key = process.env.REACT_APP_API_KEY;
+
     axios
-      .get(`${BASE_URL}?api_key=${API_KEY}`)
+      .get(`${url}?api_key=${key}`)
       .then((res) => {
         setData(res.data);
       })
