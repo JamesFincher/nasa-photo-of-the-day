@@ -15,7 +15,7 @@ export const StyledFooter = styled.div`
   @media (max-width: 450px) {
     flex-direction: row;
     justify-content: space-around;
-
+  }
   a {
     color: white;
     font-size: 0.8rem;
