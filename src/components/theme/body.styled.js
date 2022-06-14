@@ -1,19 +1,27 @@
 import styled from 'styled-components';
 
 export const StyledBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: ${(props) => props.theme.nasaLightBlue};
   color: ${(props) => props.theme.nasaWhite};
 
   img {
-    width: 50%;
+    padding-top: 10px;
+    width: 65%;
     height: auto;
   }
 
   p {
-    display: inline-block;
-    max-width: 80%;
-    font-size: 1.5rem;
+    max-width: 63%;
+    font-size: 1rem;
     padding: 20px;
-    margin: 0;
+    margin: 20px;
+    text-align: center;
+
+    @media (max-width: ${(props) => props.theme.breakpoint}) {
+      max-width: 100%;
+    }
   }
 `;
