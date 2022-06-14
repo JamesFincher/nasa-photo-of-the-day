@@ -15,7 +15,7 @@ export const StyledHead = styled.div`
     margin: 0;
     padding-bottom: 0.6rem;
 
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
       font-size: 1.3rem;
     }
   }
@@ -23,7 +23,7 @@ export const StyledHead = styled.div`
     font-size: 1.4rem;
     font-weight: bold;
     margin: 0;
-    @media (max-width: 400px) {
+    @media (max-width: 450px) {
       font-size: 1rem;
     }
   }
