@@ -12,6 +12,10 @@ export const StyledBody = styled.div`
   img {
     width: 65%;
     height: auto;
+
+    @media (max-width: 450px) {
+      width: 95%;
+    }
   }
 
   p {
@@ -21,8 +25,8 @@ export const StyledBody = styled.div`
     margin: 20px;
     text-align: center;
 
-    @media (max-width: ${(props) => props.theme.breakpoint}) {
-      max-width: 100%;
+    @media (max-width: 450px) {
+      max-width: 80%;
     }
   }
 `;
