@@ -8,7 +8,6 @@ export const StyledBody = styled.div`
   color: ${(props) => props.theme.nasaWhite};
 
   img {
-    padding-top: 10px;
     width: 65%;
     height: auto;
   }
