@@ -14,10 +14,17 @@ export const StyledHead = styled.div`
     font-weight: bold;
     margin: 0;
     padding-bottom: 0.6rem;
+
+    @media (max-width: 400px) {
+      font-size: 1.3rem;
+    }
   }
   h2 {
     font-size: 1.4rem;
     font-weight: bold;
     margin: 0;
+    @media (max-width: 400px) {
+      font-size: 1rem;
+    }
   }
 `;
