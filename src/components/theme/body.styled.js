@@ -4,6 +4,8 @@ export const StyledBody = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+
   background-color: ${(props) => props.theme.nasaLightBlue};
   color: ${(props) => props.theme.nasaWhite};
 
