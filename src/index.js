@@ -8,9 +8,11 @@ import App from './App';
 
 import { ThemeProvider } from 'styled-components';
 import theme from './components/theme';
+import { Reset } from 'styled-reset';
 
 root.render(
   <ThemeProvider theme={theme}>
+    <Reset />
     <App />
   </ThemeProvider>,
   document.getElementById('root')
