@@ -12,6 +12,10 @@ export const StyledFooter = styled.div`
   background-color: ${(props) => props.theme.nasaDarkBlue};
   color: white;
 
+  @media (max-width: 450px) {
+    flex-direction: row;
+    justify-content: space-around;
+
   a {
     color: white;
     font-size: 0.8rem;
