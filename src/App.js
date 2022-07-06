@@ -22,7 +22,7 @@ function App() {
       <Head className='head' title={data.title} date={data.date} />
       <Body
         className='body'
-        imgSrc={data.hdurl}
+        imgSrc={data.url}
         explanation={data.explanation}
       />
       <Foot className='footer' />
