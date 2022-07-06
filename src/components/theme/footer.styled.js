@@ -6,6 +6,7 @@ export const StyledFooter = styled.div`
   align-items: center;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  margin-top: auto;
 
   padding-top: 10px;
   padding-bottom: 10px;
